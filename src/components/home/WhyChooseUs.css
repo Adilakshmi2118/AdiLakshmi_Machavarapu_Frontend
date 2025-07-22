@@ -1,0 +1,28 @@
+/* src/components/home/WhyChooseUs.css */
+.why-us {
+  padding: 3rem;
+  background-color: #FFF1F1;
+  text-align: center;
+  color: #2C2C2C;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.feature-card h3 {
+  margin-top: 1rem;
+  color: #D2042D;
+}

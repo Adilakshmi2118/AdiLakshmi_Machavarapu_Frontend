@@ -1,0 +1,44 @@
+/* src/pages/Home.css */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.cta-buttons a {
+  text-decoration: none;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background-color: #D2042D;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #A30022;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #D2042D;
+  border: 2px solid #D2042D;
+}
+
+.btn-secondary:hover {
+  background-color: #F28E8E;
+  color: white;
+}

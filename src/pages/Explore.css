@@ -1,0 +1,30 @@
+.explore-page {
+  padding: 2rem;
+  background-color: #FFF1F1;
+  min-height: 100vh;
+}
+
+.explore-title {
+  text-align: center;
+  color: #D2042D;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.room-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .room-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .room-grid {
+    grid-template-columns: 1fr;
+  }
+}

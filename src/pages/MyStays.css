@@ -1,0 +1,29 @@
+.myStays {
+  padding: 2rem;
+  background-color: #FFF1F1; /* Off-white Cream */
+  min-height: 100vh;
+  color: #2C2C2C;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #D2042D; /* Cherry Red */
+}
+
+.noBookings {
+  text-align: center;
+  color: #A30022; /* Deep Cherry */
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.cardGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}

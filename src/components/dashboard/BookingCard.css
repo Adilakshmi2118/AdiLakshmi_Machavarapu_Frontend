@@ -1,0 +1,62 @@
+.booking-card {
+  width: 95%;
+  max-width: 600px;
+  background: white;
+  border: 2px solid #F28E8E; /* Soft Cherry Tint border */
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(210, 4, 45, 0.2); /* Soft shadow in cherry tone */
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.booking-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(163, 0, 34, 0.3); /* Deep Cherry hover */
+}
+
+.booking-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 2px solid #F28E8E;
+}
+
+.booking-info {
+  padding: 1.5rem;
+}
+
+.room-type {
+  color: #D2042D;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.booking-info p {
+  margin: 0.4rem 0;
+  font-size: 1rem;
+  color: #2C2C2C;
+}
+
+.booking-info strong {
+  color: #A30022;
+}
+
+/* 🔄 Mobile Responsive */
+@media (max-width: 768px) {
+  .booking-card {
+    width: 90%;
+  }
+
+  .booking-image {
+    height: 180px;
+  }
+
+  .room-type {
+    font-size: 1.3rem;
+  }
+
+  .booking-info {
+    padding: 1rem;
+  }
+}

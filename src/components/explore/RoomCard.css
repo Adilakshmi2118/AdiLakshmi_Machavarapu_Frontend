@@ -1,0 +1,55 @@
+/* src/components/explore/RoomCard.css */
+.room-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 400px;
+  transition: transform 0.3s ease;
+}
+
+.room-card:hover {
+  transform: scale(1.02);
+}
+
+.room-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.room-info {
+  padding: 1rem;
+}
+
+.room-info h3 {
+  color: #D2042D;
+  margin-bottom: 0.5rem;
+}
+
+.room-info .price {
+  color: #2C2C2C;
+  font-weight: bold;
+}
+
+.room-info .desc {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.room-info button {
+  background-color: #D2042D;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.room-info button:hover {
+  background-color: #A30022;
+}
+.room-link {
+  text-decoration: none;
+  color: inherit;
+}
